@@ -1,0 +1,134 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f5efe6;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    padding-bottom: 10px;
+}
+
+table td:nth-child(2), table td:nth-child(3){
+    color: #acb2b2;
+}
+
+
+.bg-blue{
+    background-color: #5f6a63;
+}
+
+.bg-black{
+    background-color: #acb2b2;
+}
+
+.bg-white{
+    background-color: #908d93;
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 15px;
+}
+
+.card{
+    padding-left: 10px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 100%;
+    box-shadow: 1px 4px 5px #4b5d67;
+    margin-bottom: 10px;
+}
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+    
+.container {
+    max-width: 750px;
+    margin: auto;
+
+}
+
+.info{
+    display: flex;
+}
+
+a{
+    background-color: rgba(0, 0, 0, 0.674);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info p{
+    color: #4b5d67;
+}
+
+.contact h2{
+    text-align: center;
+
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color:#4b5d67;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.row > .form-group{
+    width: 100%;
+    margin-bottom: 16px;
+    padding-left: 15px;
+}
+
+.btn{
+    padding: 15px 50px;
+    color: white;
+    border: none;
+    background-color: #5f6a63;
+    border-radius: 15px;
+    margin: 10px;
+    font-family: inherit;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+/*#e8dfca 
